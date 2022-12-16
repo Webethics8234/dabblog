@@ -1,0 +1,579 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* text-transform: capitalize; */
+}
+
+/* header css start  */
+
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background: black;
+    align-items: center;
+    /* position: fixed; */
+    padding: 46px;
+    
+
+}
+
+h2 a{
+
+    text-decoration: none;
+    color: white;
+
+}
+.header_logo{
+
+    padding-right: 50vh;
+    color: white;
+
+}
+
+.header_login{
+    padding-right: 2px;
+}
+
+
+
+
+/* header css end  */
+
+/* header2 css start  */
+
+.header2{
+
+
+
+}
+
+/* header2 css end  */
+
+
+/* registation css start  */
+
+.registation{
+
+    height: 78vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+/* .field{
+
+    height: 6vh;
+
+} */
+/* input{
+
+    height: 25px;
+    width: 30vh;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 2px;
+
+}
+label{
+    margin-right: 6px;
+} */
+
+.registation_button {
+
+    /* margin-top: 3px; */
+    padding: 2px;
+    margin-left: 100px;
+
+}
+
+/* registation css end  */
+
+
+/* footer css start  */
+
+.footer{
+
+    height: 12vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+/* footer css end  */
+
+
+/* login css start  */
+
+.login{
+
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+
+.login_button{
+
+    margin-left: 11vh;
+    margin-top: 5px;
+
+} 
+
+
+/* login css end  */
+
+
+/* profile css start  */
+
+
+.profile{
+
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+    justify-content: space-around;
+
+}
+
+
+/* profile css end  */
+
+/* blog list css start  */
+
+
+.bloglist{
+
+    background: rgb(225, 162, 225,0.8);
+    /* height: 60vh; */
+    /* opacity: 0.2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 4px;
+
+}
+
+.add_blog_height{
+
+    height: 78vh;
+
+}
+/* .blog_field{
+
+    margin: 5px;
+
+}
+
+.blog_title{
+
+    margin-left: 53px;
+
+}
+.blog_file{
+
+    margin-left: 18px;
+
+}
+.blog_status{style={{textTransform:'lowerase'}}
+
+    margin-left: 13px;
+
+}
+
+.blog_textarea{
+
+    width: 25vh;
+
+} */
+
+
+.mainblogdata{
+
+    display: flex;
+
+}
+
+.blogdata{
+
+    display: flex;
+    background-color: rgb(90, 196, 226);
+    margin: 4px;
+    border-radius: 20px;
+    width: 52vh;
+
+
+
+}
+
+.blogdatachild1{
+
+    padding-left: 2px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+
+}
+
+.blogdatachild2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blogdetail{
+
+    overflow: scroll;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+
+}
+
+
+
+/* bloglist css end  */
+
+
+/* Loding css start  */
+
+
+/* .loding{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+style={{textTransform:'lowerase'}}
+} */
+
+.spiner{
+
+    margin-top: 50vh;
+    margin-left: 90vh;
+    
+
+}
+
+
+/* Loading css end  */
+
+
+/* header3 css start  */
+
+.heder3_arrangement{
+    margin-right: 2px;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+/* header3 css end  */
+
+
+/* Error page css start  */
+
+.Error{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(206, 234, 238);
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Error page css end  */
+
+/* home page css start  */
+
+.home{
+
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* home page css end  */
+
+
+/* blogdetail css start  */
+
+.blogdetail{
+
+    height: 78vh;
+
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* blog detail css end  */
+
+.editblog_height{
+
+    height: 78vh;
+
+}
+
+
+
+/* transition effect  */
+
+
+.navlink_image img {
+
+    transition: transform 400ms ;
+
+}
+
+.navlink_image:hover img {
+
+    transform: scale(1.2);
+
+}
+
+/* .text-dark {
+
+    transition: all 400s ;
+
+
+} */
+
+.card-title:hover a {
+    
+    
+  
+    color: #198754 !important;
+
+}
+
+/* @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+
+
+/* extra bootstrap css   */
+
+.bd-info{
+
+    max-width: 480px;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blog_heading_footer{
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    border-top: 2px solid #e4e9ee;
+    display: flex;
+    color: #000000;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.response_image_user_profile img {
+
+  animation-name:example;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite
+
+}
+
+@keyframes example {
+
+    from { transform: scale(1.1); }
+    to { transform: scale(1.2); }
+    
+}
+
+
+
+/* home css :start  */
+
+.body{
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #45011A; */
+
+}
+
+  .home .container{
+
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+  .circle{
+
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: #DFB79E; */
+    left: 15%;
+    transform-origin:50% ;
+    animation: circle .5s alternate infinite ease;
+
+}
+
+@keyframes circle {
+
+    0% {
+
+        top:60px;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+
+    }
+
+    40%{
+
+        height: 20px;
+        border-radius: 50%;
+        transform: scale(1);
+
+    }
+
+    100%
+    {
+       top: 0;
+    }
+    
+}
+
+.circle:nth-child(2){
+
+    left: 45%;
+    animation-delay: .2s;
+
+}
+
+.circle:nth-child(3){
+
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+
+}
+
+/* .shadow {
+
+    width: 90px;
+    height: 94px;
+    border-radius: 50%;
+    background-color: rgba(220, 91, 81, .5);
+    position: absolute;
+    top: 62%;
+    transform-origin:50% ;
+    z-index: -1;
+    left: 15%;
+    filter: blur(1px);
+    animation: shadow .5s alternate infinite ease ;
+
+}
+
+@keyframes shadow {
+    
+       0%{
+        transform: scaleX(1.5);
+        
+       }
+       40%{
+
+        transform: scaleX(1);
+        opacity: .7;
+
+       }
+       100%{
+        transform: scaleX(.2);
+        opacity: .4;
+       }
+
+}
+
+.shadow:nth-child(4){
+
+    left: 45%;
+    animation-delay: .2s;
+
+}
+
+.shadow:nth-child(5){
+
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+
+}
+
+ */
+
+
+ /* text editor background  */
+
+ .App-header {
+    background-color: #fff;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
